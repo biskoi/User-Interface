@@ -65,15 +65,68 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+body{
+	width: 100%;
+}
+
+.main{
+	margin: 5%;
+}
+
+.nav{
+	border: solid grey 2px;
+}
+
 nav{
-	display: inline-block;
+display: inline-block;
+width: 100%;
 }
 
 nav a{
 	color: grey;
-	margin: 0 3%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	width: 10%;
+	border: green solid
 }
 
-.logo{
+#logo{
+	border: solid red 2px;
 	display: inline-block;
+	width: 25%;
+}
+
+.section1{
+	width: 100%;
+	border: purple solid 2px;
+}
+
+.content{
+	border-top: solid black 2px;
+	border-bottom: solid black 2px;
+}
+
+.contentTop div{
+	display: inline-block;
+	width: 49.5%;
+	margin: 2% 0%;
+}
+
+.middle-img{
+	width: 100%;
+}
+
+.contentBottom div{
+	display: inline-block;
+	width: 30%;
+	margin: 2% 0%;
+}
+
+address h3{
+	padding: 4% 0% 1% 0%;
+}
+
+section .contactInfo{
+padding: 1% 0 1% 0;
 }
